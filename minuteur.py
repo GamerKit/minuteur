@@ -12,13 +12,13 @@ while continuer == True:
     print(heure, "h", minute, "min", seconde, "s")
 
 
-    if seconde == 60:
+    if seconde == 59:
         continuer = False
         seconde = 0
         continuer = True
         minute=minute+1
 
-    if minute == 60:
+    if minute == 59:
         continuer = False
         seconde = 0
         minute = 0

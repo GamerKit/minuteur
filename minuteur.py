@@ -18,7 +18,7 @@ while continuer == True:
         continuer = True
         minute=minute+1
 
-    if minute == 59:
+    if minute == 60:
         continuer = False
         seconde = 0
         minute = 0

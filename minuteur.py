@@ -5,8 +5,6 @@ minute=0
 heure=0
 
 continuer = True
-continuer2= True
-
 
 while continuer == True:
     time.sleep(1)
